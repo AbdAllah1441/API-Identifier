@@ -28,7 +28,7 @@ public class UtilityClass {
     };
 
     public static void main(String[] args) throws IOException, BiffException {
-        File file = new File("C:\\Users\\Abd-Elkhalek\\Desktop\\هندسة عمر\\تانية حاسبات\\second semester\\Programming\\XLS.xls");
+        File file = new File("XLS.xls");
         Workbook utilityWorkbook = Workbook.getWorkbook(file);
         Sheet utilitySheet = utilityWorkbook.getSheet(0);
         int rows = utilitySheet.getRows();
