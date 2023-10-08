@@ -1,7 +1,6 @@
 package FXproject;
 
 public class FieldClass {
-
     public FieldClass( ){};
     
     public FieldClass( String name , String valuesAllowed , String mandatory  ){
